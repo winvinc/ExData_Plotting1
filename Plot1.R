@@ -18,7 +18,7 @@
   
   use_data <- source_data[source_data$Date == "2007-02-02" | source_data$Date == "2007-02-01",] 
 
-## Thuis part to Plot Data to graph
+## This part to Plot Data to graph
   png("plot1.png")
   hist(use_data$Global_active_power,col="red",xlab="Global Active Power (kilowatts)", main="Global Active Power") ##Creates the Histogram
   dev.off()
